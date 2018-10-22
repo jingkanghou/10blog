@@ -1,7 +1,7 @@
 javascript
 # void的用法test
 
-## void的说明1
+## void的说明1  test
 我们来看看 MDN 的解释：
 
 The void operator evaluates the given expression and then returns undefined.
