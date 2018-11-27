@@ -5,7 +5,9 @@ github,go
 - 提交时做了哪些变动？  
 - secret的使用  
 
-罢了，想拿来即用的偷懒之路走不通，只能老老实实啃[官方文档](https://developer.github.com/webhooks/)了。  
+罢了，想拿来即用的偷懒之路走不通，只能老老实实啃[官方文档](https://developer.github.com/webhooks/)了。 
+
+ 
 ### Webhooks干嘛用的？  
 Github Webhooks提供了一堆事件，这些事件在用户特定的操作下会被触发，比如创建分支(Branch)、库被fork、项目被star、用户push了代码等等。  
 我们可以自己写一个服务,将服务的URL交给Webhooks，当上述事件被触发时，Webhook会向这个服务发送一个POST请求，请求中附带着该事件相关的详细描述信息(即Payload)。  
