@@ -2,7 +2,7 @@ nginx
 # nginx之安装  
 ## 下载  
 - 到[nginx官网下载](http://nginx.org/en/download.html)  
-  ![nginx下载页面](./images/nginx-download.png)  
+  ![nginx下载页面](images/nginx-download.png)  
   建议下载稳定版本(Stable version)  
   - CHANGES-1.14  
     版本更新日志  
